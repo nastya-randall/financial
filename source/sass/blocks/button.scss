@@ -1,0 +1,29 @@
+.button {
+  position: relative;
+  min-height: 42px;
+  display: block;
+  box-sizing: border-box;
+  text-decoration: none;
+  background-color: #ffffff;
+
+  &--arrow {
+    width: 164px;
+    padding-left: 37px;
+    padding-top: 9px;
+    color: #757575;
+    font-family: "Montserrat", "Arial", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 21px;
+    
+    &::after {
+      content: "";
+      position: absolute;
+      top: 18px;
+      right: 27px;
+      width: 11px;
+      height: 8px;
+      background-image: url("../../img/arrow-gray.png");
+    }
+  }
+}
