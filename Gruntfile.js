@@ -5,7 +5,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     copy: {
-      docs: {
+      build: {
         files: [{
           expand: true,
           cwd: "source",
@@ -20,13 +20,13 @@ module.exports = function(grunt) {
     },
 
     clean: {
-      docs: ["docs"]
+      build: ["docs"]
     },
 
     sass: {
       style: {
         files: {
-          "docs/css/style.css": "source/sass/style.scss"
+          "docs/css/style/style.css": "source/sass/style.scss"
         }
       }
     },
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
             require("autoprefixer")()
           ]
         },
-        src: "docs/css/*.css"
+        src: "docs/css/style/*.css"
       }
     },
 
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
           report: "gzip"
         },
         files: {
-          "docs/css/style.min.css": ["docs/css/style.css"]
+          "docs/css/style/style.min.css": ["docs/css/style/style.css"]
         }
       }
     },
