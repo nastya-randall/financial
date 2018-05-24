@@ -11,7 +11,7 @@
   align-content: flex-start;
   flex-wrap: wrap;
   list-style: none;
-  box-shadow: 0 4px 35px rgba(218, 218, 218, 0.77);
+  box-shadow: 5px 10px 35px rgba(218, 218, 218, 0.77);
 }
 
 .features-list__item {
@@ -53,6 +53,7 @@
   margin: 0;
   margin-bottom: 20px;
   padding: 0;
+  color: #444444;
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 700;
   font-size: 18px;

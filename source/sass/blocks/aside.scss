@@ -10,6 +10,7 @@
   flex-direction: column;
   color: #ffffff;
   background-color: rgba(0, 150, 136, 0.91);
+  background-image: url("../../img/bg-green.jpg");
 }
 
 .aside__title {
@@ -26,6 +27,7 @@
 .aside__text {
   margin: 0;
   padding: 0;
+  text-align: justify;
 }
 
 .aside__button {

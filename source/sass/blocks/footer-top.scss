@@ -1,0 +1,33 @@
+.footer-top {
+  background-color: #009688;
+}
+
+.footer-top__container {
+  width: 1920px;
+  min-height: 120px;
+  margin: 0 auto;
+  padding-left: 485px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  background-color: #009688;
+}
+
+.footer-top__link {
+  margin-right: 384px;
+}
+
+.footer-top__twitter {
+  fill: #ffffff;
+
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+.footer-top__text {
+  padding-bottom: 15px;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 16px;
+}

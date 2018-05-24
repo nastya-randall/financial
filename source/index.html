@@ -8,6 +8,10 @@
   </head>
   <body>
 
+    <div style="display:none">
+      <include src="build/img/sprite.svg"></include>
+    </div>
+
     <header class="page-header">
       <a class="page-header__logo">
         <img class="page-header__logo-image" src="img/logo-2.png" width="194" height="29">
@@ -85,7 +89,7 @@
           </li>
         </ul>
       </section>
-      
+
       <section class="values">
         <h2 class="values__title">Our Company Values</h2>
         <p class="values__text">With any financial product that you buy, it is important that you know you are getting the best advice from a reputable company as often you will have to provide sensitive information online or over the internet, so it’s important that you can trust the people who are dealing with your personal information.</p>
@@ -110,10 +114,14 @@
       </section>
 
       <section class="experts">
-        <h2 class="experts__title">Experts are behind everything we do.</h2>
-        <p class="experts__text">Finance theme is created based on the most business trends to empower your website with everything you need to establish your corporate, start-up, or even personal website.</p>
-        <a class="experts__button button" href="#">Learn more</a>
-        <a class="experts__button button" href="#">Contact us</a>
+        <div class="experts__container">
+          <h2 class="experts__title">Experts are behind everything we do.</h2>
+          <p class="experts__text">Finance theme is created based on the most business trends to empower your website with everything you need to establish your corporate, start-up, or even personal website.</p>
+          <div class="experts__button-wrapper">
+            <a class="experts__button button" href="#">Learn more</a>
+            <a class="experts__button button" href="#">Contact us</a>
+          </div>
+        </div>
       </section>
 
       <section class="services">
@@ -153,50 +161,62 @@
           <h2 class="dif-services__title">We offer different services</h2>
           <p class="dif-services__text">With these values, we embrace our mission to bring each client the best service.</p>
           <ul class="dif-services__list">
-            <li class="dif-services__item dif-services__item--planning">
-              <div class="dif-services__bg-container"></div>
-              <div class="dif-services__item__wrapper">
-                <h3 class="dif-services__item-title">Financial planning</h3>
+            <li class="dif-services__item">
+              <div class="dif-services__container dif-services__container--planning"></div>
+              <div class="dif-services__item-wrapper">
+                <h3 class="dif-services__item-title">
+                  <a href="#">Financial planning</a>
+                </h3>
                 <span class="dif-services__item-note">Great Experts</span>
                 <p class="dif-services__item-text">True financial planning is a comprehensive, ongoing approach that starts with helping you define your dreams.</p>
               </div>
             </li>
-            <li class="dif-services__item dif-services__item--stocks">
-              <div class="dif-services__bg-container"></div>
-              <div class="dif-services__item__wrapper">
-                <h3 class="dif-services__item-title">Stocks</h3>
+            <li class="dif-services__item">
+              <div class="dif-services__container dif-services__container--stocks"></div>
+              <div class="dif-services__item-wrapper">
+                <h3 class="dif-services__item-title">
+                  <a href="#">Stocks</a>
+                </h3>
                 <span class="dif-services__item-note">Great Experts</span>
                 <p class="dif-services__item-text">True financial planning is a comprehensive, ongoing approach that starts with helping you define your dreams.</p>
               </div>
             </li>
-            <li class="dif-services__item dif-services__item--cash">
-              <div class="dif-services__bg-container"></div>
-              <div class="dif-services__item__wrapper">
-                <h3 class="dif-services__item-title">Cash, Cards &amp; Lending</h3>
+            <li class="dif-services__item">
+              <div class="dif-services__container dif-services__container--cash"></div>
+              <div class="dif-services__item-wrapper">
+                <h3 class="dif-services__item-title">
+                  <a href="#">Cash, Cards &amp; Lending</a>
+                </h3>
                 <span class="dif-services__item-note">Great Experts</span>
                 <p class="dif-services__item-text">True financial planning is a comprehensive, ongoing approach that starts with helping you define your dreams.</p>
               </div>
             </li>
-            <li class="dif-services__item dif-services__item--invest">
-              <div class="dif-services__bg-container"></div>
-              <div class="dif-services__item__wrapper">
-                <h3 class="dif-services__item-title">Investments</h3>
+            <li class="dif-services__item">
+              <div class="dif-services__container dif-services__container--invest"></div>
+              <div class="dif-services__item-wrapper">
+                <h3 class="dif-services__item-title">
+                  <a href="#">Investments</a>
+                </h3>
                 <span class="dif-services__item-note">Great Experts</span>
                 <p class="dif-services__item-text">True financial planning is a comprehensive, ongoing approach that starts with helping you define your dreams.</p>
               </div>
             </li>
-            <li class="dif-services__item dif-services__item--trust">
-              <div class="dif-services__bg-container"></div>
-              <div class="dif-services__item__wrapper">
-                <h3 class="dif-services__item-title">Personal Trust Services</h3>
+            <li class="dif-services__item">
+              <div class="dif-services__container dif-services__container--trust"></div>
+              <div class="dif-services__item-wrapper">
+                <h3 class="dif-services__item-title">
+                  <a href="#">Personal Trust Services</a>
+                </h3>
                 <span class="dif-services__item-note">Great Experts</span>
                 <p class="dif-services__item-text">True financial planning is a comprehensive, ongoing approach that starts with helping you define your dreams.</p>
               </div>
             </li>
-            <li class="dif-services__item dif-services__item--planning">
-              <div class="dif-services__bg-container"></div>
-              <div class="dif-services__item__wrapper">
-                <h3 class="dif-services__item-title">Financial planning</h3>
+            <li class="dif-services__item ">
+              <div class="dif-services__container dif-services__container--insurance"></div>
+              <div class="dif-services__item-wrapper">
+                <h3 class="dif-services__item-title">
+                  <a href="#">Insurance &amp; annuities</a>
+                </h3>
                 <span class="dif-services__item-note">Great Experts</span>
                 <p class="dif-services__item-text">True financial planning is a comprehensive, ongoing approach that starts with helping you define your dreams.</p>
               </div>
@@ -210,103 +230,146 @@
 
     <footer class="page-footer">
       <div class="page-footer__top footer-top">
-        <a class="footer-top__link" href="#">Follow Finance Business on Twitter</a>
-        <span class="footer-top__text">Check out 'Finance Business'</span>
+        <div class="footer-top__container">
+          <a class="footer-top__link" href="#" title="Follow Finance Business on Twitter">
+            <svg class="footer-top__twitter" width="50" height="42">
+                  <use xlink:href="#twitter"></use>
+            </svg>
+          </a>
+          <span class="footer-top__text">Check out 'Finance Business'</span>
+        </div>
       </div>
+
       <div class="page-footer__main footer-main">
-        <div class="footer-main__news news">
-          <h3 class="news__title">Recent News</h3>
-          <ul class="news__list">
-            <li class="news__item">
-              <a class="news__link" href="#">A Clean Website Gives More Experience To The Visitors</a>
-              <span class="news__date">Dec 12 - 2016</span>
-            </li>
-            <li class="news__item">
-              <a class="news__link" href="#">A Clean Website Gives More Experience To The Visitors</a>
-              <span class="news__date">Dec 12 - 2016</span>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-main__links links">
-          <h3 class="links__title">Useful Links</h3>
-          <ul class="links__list">
-            <li class="links__item">
-              <a href="#">Web Design</a>
-            </li>
-            <li class="links__item">
-              <a href="#">Company</a>
-            </li>
-            <li class="links__item">
-              <a href="#">About Firm</a>
-            </li>
-            <li class="links__item">
-              <a href="#">Latest Jobs</a>
-            </li>
-            <li class="links__item">
-              <a href="#">Mobile</a>
-            </li>
-            <li class="links__item">
-              <a href="#">Partners</a>
-            </li>
-            <li class="links__item">
-              <a href="#">Why Finance</a>
-            </li>
-            <li class="links__item">
-              <a href="#">Blog Posts</a>
-            </li>
-            <li class="links__item">
-              <a href="#">Social Media</a>
-            </li>
-            <li class="links__item">
-              <a href="#">Help Topics</a>
-            </li>
-            <li class="links__item">
-              <a href="#">Site Map</a>
-            </li>
-            <li class="links__item">
-              <a href="#">Policies</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-main__social social">
-          <div class="social__mail mail">
-            <h3 class="mail__title">Mailing List</h3>
-            <p class="mail__text">Sign up for our mailing list to get latest updates and offers.</p>
-            <form class="mail__form">
-              <input class="mail__input" type="email" placeholder="Email address">
-              <button class="mail__button"type="submit">Sign up</button>
-            </form>
-            <span class="mail__note">We respect your privacy</span>
-          </div>
-          <div class="social__follow-us follow-us">
-            <ul class="follow-us__list">
-              <li class="follow-us__item">
-                <a class="follow-us__link follow-us__link--tw" title="Follow us on Twitter"></a>
+        <div class="footer-main__container">
+
+          <div class="footer-main__news news">
+            <h3 class="news__title">Recent News</h3>
+            <ul class="news__list">
+              <li class="news__item">
+                <a class="news__link" href="#">
+                  <img class="news__link-pic" src="img/news-1.jpg" width="63" height="64">
+                  <span class="news__link-text">A Clean Website Gives More Experience To The Visitors</span>
+                  <span class="news__date">Dec 12 - 2016</span>
+                </a>
               </li>
-              <li class="follow-us__item">
-                <a class="follow-us__link follow-us__link--g+" title="Follow us on Google+"></a>
-              </li>
-              <li class="follow-us__item">
-                <a class="follow-us__link follow-us__link--fb" title="Follow us on Facebook"></a>
-              </li>
-              <li class="follow-us__item">
-                <a class="follow-us__link follow-us__link--linkedin" title="Follow us on LinkedIn"></a>
-              </li>
-              <li class="follow-us__item">
-                <a class="follow-us__link follow-us__link--youtube" title="Follow us on Youtube"></a>
-              </li>
-              <li class="follow-us__item">
-                <a class="follow-us__link follow-us__link--inst" title="Follow us on Instagram"></a>
+              <li class="news__item">
+                <a class="news__link" href="#">
+                  <img class="news__link-pic" src="img/news-2.jpg" width="63" height="64">
+                  <span class="news__link-text">A Clean Website Gives More Experience To The Visitors</span>
+                  <span class="news__date">Dec 12 - 2016</span>
+                </a>
               </li>
             </ul>
           </div>
-        </div>
-        <div class="footer-main__contact contact">
-          <h3 class="contact__title">About Finance</h3>
-          <p class="contact__text">finance Website Builder is a big library of pre-designed web elements which help you create website in few minutes.</p>
-          <span class="contact__item contact__item--email">hello@finance.com</span>
-          <span class="contact__item contact__item--tel">P: 1234-4556-678</span>
-          <span class="contact__item contact__item--address">12/4 Barnard St - Suite 888 <br>United Kingdom - GA 32323</span>
+
+          <div class="footer-main__links links">
+            <h3 class="links__title">Useful Links</h3>
+            <ul class="links__list">
+              <li class="links__item">
+                <a href="#">Web Design</a>
+              </li>
+              <li class="links__item">
+                <a href="#">Company</a>
+              </li>
+              <li class="links__item">
+                <a href="#">About Firm</a>
+              </li>
+              <li class="links__item">
+                <a href="#">Latest Jobs</a>
+              </li>
+              <li class="links__item">
+                <a href="#">Mobile</a>
+              </li>
+              <li class="links__item">
+                <a href="#">Partners</a>
+              </li>
+              <li class="links__item">
+                <a href="#">Why Finance</a>
+              </li>
+              <li class="links__item">
+                <a href="#">Blog Posts</a>
+              </li>
+              <li class="links__item">
+                <a href="#">Social Media</a>
+              </li>
+              <li class="links__item">
+                <a href="#">Help Topics</a>
+              </li>
+              <li class="links__item">
+                <a href="#">Site Map</a>
+              </li>
+              <li class="links__item">
+                <a href="#">Policies</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-main__social social">
+            <div class="social__mail mail">
+              <h3 class="mail__title">Mailing List</h3>
+              <p class="mail__text">Sign up for our mailing list to get latest updates and offers.</p>
+              <form class="mail__form">
+                <input class="mail__input" type="email" placeholder="Email address">
+                <button class="mail__button"type="submit">Sign up</button>
+              </form>
+              <span class="mail__note">We respect your privacy</span>
+            </div>
+            <div class="social__follow-us follow-us">
+              <ul class="follow-us__list">
+                <li class="follow-us__item">
+                  <a class="follow-us__link follow-us__link--tw" title="Follow us on Twitter">
+                    <svg class="follow-us__icon" width="15" height="13">
+                      <use xlink:href="#twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="follow-us__item">
+                  <a class="follow-us__link follow-us__link--g+" title="Follow us on Google+">
+                    <svg class="follow-us__icon" width="15" height="16">
+                      <use xlink:href="#google"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="follow-us__item">
+                  <a class="follow-us__link follow-us__link--fb" title="Follow us on Facebook">
+                    <svg class="follow-us__icon" width="9" height="16">
+                      <use xlink:href="#fb"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="follow-us__item">
+                  <a class="follow-us__link follow-us__link--linkedin" title="Follow us on LinkedIn">
+                    <svg class="follow-us__icon" width="15" height="14">
+                      <use xlink:href="#linkedin"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="follow-us__item">
+                  <a class="follow-us__link follow-us__link--youtube" title="Follow us on Youtube">
+                    <svg class="follow-us__icon" width="17" height="13">
+                      <use xlink:href="#youtube"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="follow-us__item">
+                  <a class="follow-us__link follow-us__link--inst" title="Follow us on Instagram">
+                    <svg class="follow-us__icon" width="14" height="15">
+                      <use xlink:href="#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-main__contact contact">
+            <h3 class="contact__title">About Finance</h3>
+            <p class="contact__text">finance Website Builder is a big library of pre-designed web elements which help you create website in few minutes.</p>
+            <span class="contact__item contact__item--email">hello@finance.com</span>
+            <span class="contact__item contact__item--tel">P: 1234-4556-678</span>
+            <span class="contact__item contact__item--address">12/4 Barnard St - Suite 888 <br>United Kingdom - GA 32323</span>
+          </div>
         </div>
       </div>
       <div class="page-footer__bottom footer-bottom">

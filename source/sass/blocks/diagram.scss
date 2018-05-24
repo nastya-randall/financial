@@ -1,0 +1,67 @@
+.diagram {
+  min-height: 334px;
+  position: relative;
+  margin-left: -15px;
+  background-image: url("../../img/diagram.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.diagram__title {
+  position: absolute;
+  top: 52px;
+  left: 324px;
+  margin: 0;
+}
+
+.diagram__title-main {
+  display: block;
+  color: #009688;
+  font-family: "Muli", "Arial", sans-serif;
+  font-size: 27px;
+  line-height: 27px;
+}
+
+.diagram__title-note {
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.diagram__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.values__item {
+  width: 196px;
+  position: absolute;
+  
+  &:first-child {
+    top: -2px;
+    left: 14px;
+  }
+  
+  &:nth-child(2) {
+    bottom: 0;
+    left: 135px;
+  }
+  
+  &:last-child {
+    top: 132px;
+    right: 0;
+  }
+}
+
+.values__percent {
+  display: inline-block;
+  margin-left: 97px;
+  margin-bottom: 40px;
+  color: #009688;
+  font-size: 39px;
+}
+
+.values__item-text {
+  margin: 0;
+  text-align: justify;
+}

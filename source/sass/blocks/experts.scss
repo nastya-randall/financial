@@ -1,0 +1,51 @@
+.experts {
+  background-color: #009688;
+}
+
+.experts__container {
+  width: 1920px;
+  min-height: 463px;
+  margin: 0 auto;
+  padding-top: 115px;
+  padding-bottom: 131px;
+  padding-left: 495px;
+  padding-right: 495px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #009688;
+  background-image: url("../../img/bg-pattern.jpg");
+  background-position: 178px 45px;
+}
+
+.experts__title {
+  margin: 0;
+  margin-bottom: 9px;
+  color: #fdfdfd;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 64px;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+.experts__text {
+  margin: 0;
+  padding: 0 85px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.experts__button-wrapper {
+  display: flex;
+  margin-top: auto;
+}
+
+.experts__button {
+  &:first-child {
+    margin-right: 37px;
+  }
+}

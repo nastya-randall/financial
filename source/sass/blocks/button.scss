@@ -1,29 +1,53 @@
 .button {
   position: relative;
-  min-height: 42px;
+  width: 205px;
+  min-height: 48px;
   display: block;
   box-sizing: border-box;
+  color: #009688;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 48px;
+  font-weight: 700;
   text-decoration: none;
+  text-align: center;
+  border: 2px solid #ffffff;
+  border-radius: 26px;
   background-color: #ffffff;
 
   &--arrow {
     width: 164px;
-    padding-left: 37px;
-    padding-top: 9px;
+    min-height: 38px;
     color: #757575;
-    font-family: "Montserrat", "Arial", sans-serif;
     font-size: 14px;
-    font-weight: 700;
+    line-height: 38px;
     border-radius: 21px;
-    
+
     &::after {
       content: "";
       position: absolute;
-      top: 18px;
-      right: 27px;
+      top: 16px;
+      right: 25px;
       width: 11px;
       height: 8px;
       background-image: url("../../img/arrow-gray.png");
     }
+    
+    &:hover {
+      color: #ffffff;
+    }
+    
+    &:hover::after {
+      background-image: url("../../img/arrow-white.png");
+    }
+  }
+
+  &:hover {
+    background-color: transparent;
+    color: #ffffff;
+  }
+  
+  &:active {
+    opacity: 0.5;
   }
 }

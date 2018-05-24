@@ -1,0 +1,102 @@
+.core-services {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  padding-left: 388px;
+  padding-right: 410px;
+  background-image: url("../../img/bg-calc.jpg");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.core-services__title {
+  margin: 0;
+  margin-bottom: 10px;
+  color: #444444;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 22px;
+  line-height: 34px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.core-services__text {
+  margin: 0;
+  margin-bottom: 50px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.core-services__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.core-services__item {
+  position: relative;
+  width: 340px;
+  margin-bottom: 50px;
+  padding-left: 62px;
+  box-sizing: border-box;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 54px;
+    height: 53px;
+    background-repeat: no-repeat;
+  }
+
+  &--building::before {
+    top: 15px;
+    left: 0;
+    background-image: url("../../img/icon-building.png");
+    }
+
+  &--case::before {
+    top: 17px;
+    left: -1px;
+    background-image: url("../../img/icon-case.png");
+    }
+
+  &--graph::before {
+    top: 15px;
+    left: -2px;
+    background-image: url("../../img/icon-graph.png");
+    }
+    
+  &--wallet::before {
+    top: 11px;
+    left: 2px;
+    background-image: url("../../img/icon-wallet.png");
+    }
+    
+  &--year::before {
+    top: 12px;
+    left: 5px;
+    background-image: url("../../img/icon-year.png");
+    }
+    
+  &--scale::before {
+    top: 11px;
+    left: -2px;
+    background-image: url("../../img/icon-scale.png");
+    }
+}
+
+.core-services__item-title {
+  margin: 0;
+  margin-bottom: 9px;
+  color: #444444;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 38px;
+  text-transform: uppercase;
+}
+
+.core-services__item-text {
+  margin: 0;
+}
