@@ -5,7 +5,7 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     copy: {
-      build: {
+      docs: {
         files: [{
           expand: true,
           cwd: "source",
@@ -14,19 +14,19 @@ module.exports = function(grunt) {
             "img/**",
             "js/**",
           ],
-          dest: "build"
+          dest: "docs"
         }]
       }
     },
 
     clean: {
-      build: ["build"]
+      docs: ["docs"]
     },
 
     sass: {
       style: {
         files: {
-          "build/css/style.css": "source/sass/style.scss"
+          "docs/css/style.css": "source/sass/style.scss"
         }
       }
     },
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
             require("autoprefixer")()
           ]
         },
-        src: "build/css/*.css"
+        src: "docs/css/*.css"
       }
     },
 
@@ -48,7 +48,7 @@ module.exports = function(grunt) {
           report: "gzip"
         },
         files: {
-          "build/css/style.min.css": ["build/css/style.css"]
+          "docs/css/style.min.css": ["docs/css/style.css"]
         }
       }
     },
@@ -59,7 +59,7 @@ module.exports = function(grunt) {
       },
       sprite: {
         files: {
-          "build/img/sprite.svg": ["source/img/*.svg"]
+          "docs/img/sprite.svg": ["source/img/*.svg"]
         }
       }
     },
@@ -75,7 +75,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: "source/",
           src: ["*.html"],
-          dest: "build"
+          dest: "docs"
         }]
       }
     },
@@ -87,9 +87,7 @@ module.exports = function(grunt) {
           collapseWhitespace: true
         },
         files: {
-          "build/index.html": ["build/index.html"],
-          "build/catalog.html": ["build/catalog.html"],
-          "build/form.html": ["build/form.html"]
+          "docs/index.html": ["docs/index.html"],
         }
       }
     },
@@ -100,7 +98,7 @@ module.exports = function(grunt) {
       },
       my_target: {
         files: {
-          "build/js/script.min.js": ["build/js/script.js"]
+          "docs/js/script.min.js": ["docs/js/script.js"]
         }
       }
     },
@@ -134,12 +132,12 @@ module.exports = function(grunt) {
       server: {
         bsFiles: {
           src: [
-            "build/*.html",
-            "build/css/*.css"
+            "docs/*.html",
+            "docs/css/*.css"
           ]
         },
         options: {
-          server: "build/",
+          server: "docs/",
           watchTask: true,
           notify: false,
           open: true,
