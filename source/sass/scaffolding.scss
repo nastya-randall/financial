@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/montserrat400.woff2") format("woff2"), url("../fonts/montserrat400.woff") format("woff");
+  src: url("../../fonts/montserrat400.woff2") format("woff2"), url("../../fonts/montserrat400.woff") format("woff");
 }
 
 @font-face {
@@ -11,7 +11,7 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/montserrat700.woff2") format("woff2"), url("../fonts/montserrat700.woff") format("woff");
+  src: url("../../fonts/montserrat700.woff2") format("woff2"), url("../../fonts/montserrat700.woff") format("woff");
 }
 
 @font-face {
@@ -19,7 +19,7 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url("../fonts/montserrat900.woff2") format("woff2"), url("../fonts/montserrat900.woff") format("woff");
+  src: url("../../fonts/montserrat900.woff2") format("woff2"), url("../../fonts/montserrat900.woff") format("woff");
 }
 
 @font-face {
@@ -27,7 +27,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/muli400.woff2") format("woff2"), url("../fonts/muli400.woff") format("woff");
+  src: url("../../fonts/muli400.woff2") format("woff2"), url("../../fonts/muli400.woff") format("woff");
 }
 
 @font-face {
@@ -35,13 +35,12 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/playfairdisplay400.woff2") format("woff2"), url("../fonts/playfairdisplay400.woff") format("woff");
+  src: url("../../fonts/playfairdisplay400.woff2") format("woff2"), url("../../fonts/playfairdisplay400.woff") format("woff");
 }
 
 body {
   margin: 0;
   padding: 0;
-  min-width: 1920px;
   color: #757575;
   font-family: "Muli", "Arial", sans-serif;
   font-size: 14px;

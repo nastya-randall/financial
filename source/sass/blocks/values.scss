@@ -1,15 +1,21 @@
 .values {
-  width: 1920px;
+  min-width: 1200px;
+  max-width: 1920px;
   margin: 0 auto;
-  padding-top: 126px;
+  padding-top: 124px;
   padding-bottom: 96px;
-  padding-left: 776px;
-  padding-right: 420px;
+  padding-left: 40.41%;
+  padding-right: 21.87%;
   box-sizing: border-box;
   background-image: url("../../img/pointer.jpg"),
     url("../../img/bg-gray.png");
   background-position: 200px bottom, right bottom;
   background-repeat: no-repeat;
+  outline: 1px solid red;
+}
+
+.values__wrapper {
+  width: 735px;
 }
 
 .values__title {
@@ -24,6 +30,6 @@
 
 .values__text {
   margin: 0;
-  margin-bottom: 69px;
+  margin-bottom: 70px;
   text-align: justify;
 }

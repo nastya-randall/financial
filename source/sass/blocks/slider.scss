@@ -1,8 +1,9 @@
 .slider {
-  width: 1920px;
+  min-width: 1200px;
+  max-width: 1920px;
   margin: 0 auto;
   margin-top: -94px;
-  padding-left: 780px;
+  padding-left: 40.6%;
   padding-top: 375px;
   padding-bottom: 239px;
   box-sizing: border-box;
@@ -12,7 +13,7 @@
 
 .slider__wrapper {
   position: relative;
-  padding-right: 445px;
+  padding-right: 23.17%;
 }
 
 .slider__list {
@@ -32,7 +33,7 @@
 
 .slider__title {
   margin: 0;
-  margin-bottom: 19px;
+  margin-bottom: 20px;
   padding: 0;
   font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 900;
@@ -43,7 +44,7 @@
 
 .slider__text {
   margin: 0;
-  margin-bottom: 42px;
+  margin-bottom: 44px;
   padding: 0;
 }
 

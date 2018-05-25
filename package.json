@@ -7,7 +7,7 @@
     "@htmlacademy/editorconfig-cli": "1.x",
     "autoprefixer": "8.3.x",
     "grunt": "1.0.x",
-    "grunt-browser-sync": "2.2.x",
+    "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-clean": "^1.1.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-htmlmin": "^2.4.0",

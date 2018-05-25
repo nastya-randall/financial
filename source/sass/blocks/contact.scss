@@ -1,3 +1,52 @@
 .contact {
   width: 262px;
+  color: #969595;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.contact__title {
+  margin: 0;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.contact__text {
+  margin: 0;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #3b3b3b;
+}
+
+.contact__item {
+  display: block;
+  padding-top: 9px;
+  padding-bottom: 11px;
+  padding-left: 27px;
+  color: #ffffff;
+  opacity: 0.4;
+  border-bottom: 1px solid #3b3b3b;
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left 11px;
+
+  &--email {
+    background-image: url("../../img/icon-email.png");
+  }
+
+  &--tel {
+    background-image: url("../../img/icon-phone.png");
+  }
+
+  &--address {
+    background-image: url("../../img/icon-location.png");
+  }
+  
+  &:hover {
+    opacity: 1;
+  }
 }

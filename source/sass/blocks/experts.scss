@@ -3,13 +3,14 @@
 }
 
 .experts__container {
-  width: 1920px;
+  min-width: 1200px;
+  max-width: 1920px;
   min-height: 463px;
   margin: 0 auto;
   padding-top: 115px;
   padding-bottom: 131px;
-  padding-left: 495px;
-  padding-right: 495px;
+  padding-left: 15%;
+  padding-right: 15%;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -28,11 +29,12 @@
   font-size: 40px;
   line-height: 64px;
   text-transform: uppercase;
-  text-align: justify;
+  text-align: center;
 }
 
 .experts__text {
   margin: 0;
+//  margin-bottom: 40px;
   padding: 0 85px;
   color: #ffffff;
   text-align: center;

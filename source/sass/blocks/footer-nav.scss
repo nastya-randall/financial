@@ -1,0 +1,25 @@
+.footer-nav__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  list-style: none
+}
+
+.footer-nav__item:not(:last-child) {
+  margin-right: 23px;
+}
+
+.footer-nav__item a {
+  color: #6b6b6b;
+  font-size: 13px;
+  text-decoration: none;
+
+  &:hover {
+    color: #969595;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}

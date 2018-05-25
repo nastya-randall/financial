@@ -1,12 +1,13 @@
 .page-header {
-  width: 1920px;
+  min-width: 1200px;
+  max-width: 1920px;
   box-sizing: border-box;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding-top: 60px;
-  padding-left: 83px;
-  padding-right: 100px;
+  padding-left: 4.3%;
+  padding-right: 5.2%;
   background-color: #75797c;
 }
